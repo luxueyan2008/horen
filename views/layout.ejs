@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <%-stylesheets%>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!--[if lt IE9]> 
+      <script src="/bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body class="fw">
+    <% include header -%>
+    <div id="container" class="container">   
+      <%-body -%>
+      <hr />
+      <footer>
+        <p><a href="http://www.byvoid.com/" target="_blank">My Family</a> 2013</p>
+      </footer>
+    </div>
+    
+    <script src="/bower_components/jquery-1.9.1/index.js"></script>
+    <script src="/js/plugins/flowplayer/flowplayer-3.2.12.min.js"></script>
+    <script src="/js/lib/detect-zoom.js"></script>
+    <script>
+      var zoom = detectZoom.zoom();
+      var device = detectZoom.device();
+
+      console.log(zoom, device);
+
+    </script>
+    <!--[if lt IE9]> 
+
+      <script type='text/javascript' src='/bower_components/jquery.html5-placeholder-shim/jquery.html5-placeholder-shim.js'></script>
+      <script>
+        $.placeholder.shim();
+      </script>
+      <![endif]-->
+    <%-scripts%>
+  </body>
+</html>

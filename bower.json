@@ -1,0 +1,37 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "homepage": "https://github.com/luxueyan2008/wb_one",
+  "authors": [
+    "default"
+  ],
+  "description": "default",
+  "main": "default",
+  "keywords": [
+    "default"
+  ],
+  "license": "default",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-bootstrap": "~3.0.2",
+    "jquery-1.9.1": "http://code.jquery.com/jquery-1.9.1.js",
+    "parallax": "*",
+    "jquery-html5-placeholder-shim": "*",
+    "html5shiv": "~3.7.0",
+    "modernizr": "~2.7.0",
+    "jquery.superscrollorama": "~1.0.2",
+    "Slicebox": "*",
+    "shadowbox": "~3.0.3",
+    "jquery.ui": "~1.10.3",
+    "jquery.stellar": "~0.6.2",
+    "jquery-scrolldeck": "*",
+    "jparallax": "~2.0.3",
+    "spritely": "git://github.com/artlogicmedia/spritely#~0.6.7"
+  }
+}
