@@ -32,6 +32,7 @@
     "jquery.stellar": "~0.6.2",
     "jquery-scrolldeck": "*",
     "jparallax": "~2.0.3",
-    "spritely": "git://github.com/artlogicmedia/spritely#~0.6.7"
+    "spritely": "git://github.com/artlogicmedia/spritely#~0.6.7",
+    "lake.js": "git@github.com:luxueyan2008/lake.js.git"
   }
 }
